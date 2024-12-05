@@ -4,6 +4,7 @@ import pandas as pd
 import yfinance as yf
 import plotly.graph_objs as go
 
+
 ticker_names = ['USD',"EUR","GBP","JPY","CAD","AUD","MXN","CHF"]
 print(f"Select from what currency to what currency would you like to convert too out of the following {ticker_names}. Put in form USD/EUR")
 input = input()
